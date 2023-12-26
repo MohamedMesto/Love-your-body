@@ -1,141 +1,444 @@
-# Love Your Body (Holy fast) - Project Portfolio 1 - HTML & CSS
+# **_Love Your Body (Holy fast) - Project Portfolio 1 - HTML & CSS_**
 
+ Love light photography is a small profesional photography business that offers a wide range of photography services. This site targets the average individual who is looking to capture their event with high quality photography, in a professional but friendly and approachable manner, with a means to see samples of work done and contact to contact the business directly.
 
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
+You can view the live site here - <a href="https://rhiannonmcn.github.io/Love-Light-Photography/" target="_blank"> Love Light Photography </a>
 
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. 
+![Love Light Photography responsive design](assets/images/readme-images/responsive-website-view.png)
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+# Contents
 
-## Features 
+* [Objective](<#objective>)
+* [User Experience](<#user-experience-ux>)
+    * [Target Audience](<#target-audience>)
+    * [User Stories](<#user-stories>)
+    * [Site Aims](<#site-aims>)
+    * [Design Wireframes](<#design-wireframes>)
+    * [Site Structure](<#site-structure>)
+    * [Design Choices](<#design-choices>)
+    *   [Colour Scheme](<#colour-scheme>)
+    *   [Typography](<#typography>)
+* [Features](<#features>)
+    * [Navigation Menu](<#navigation-menu>)
+    * [Home Page](<#home-page>)
+    * [About Page](<#about-page>)
+    * [Packages Page](<#packages-page>)
+    * [Gallery Page](<#gallery-page>)
+    * [Contact Page](<#contact-page>)
+    * [Thank You Page](<#thank-you-page>)
+    * [Footer](<#footer>)
+* [Future Features](<#future-features>)
+* [Technologies Used](<#technologies-used>)
+* [Testing](<#testing>)
+    * [Code Validation](<#code-validation>)
+    * [Lighthouse Testing](<#lighthouse-testing>)
+    * [Responsive Testing](<#responsive-testing>)
+    * [Accessibility Testing](<#accessibility-testing>)
+    * [Manual Testing](<#manual-testing>)
+    * [Bugs Fixed](<#bugs-fixed>)
+* [Deployment](<#deployment>)
+* [Credits](<#credits>)
+* [Acknowledgements](<#acknowledgements>)
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+# Objective
 
-### Existing Features
+The aim of this project is to deliver a professionaly developed website for users to access a friendly but professional photography service.
 
-- __Navigation Bar__
+[Back to top](<#contents>)
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+# User Experience (UX)
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+## Target Audience
 
-- __The landing page image__
+* Users that are looking for a professional but inviting photography service to cover their event or celebration.
+* Users that are looking for a professional photographer to cover their business event
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+## User Stories
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+* A user should be able to determine the site's purpose immediately
+* A user should be able to easily and intuitively navigate the site
+* A user should be able to identify the content of each page easily
+* A user should feel comfortable contacting the business for more information or to book an event 
 
-- __Club Ethos Section__
+## Site Aims
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+* To provide the user with all the information needed to contact the business to book an event/photographer
+* To offer a clear method to contact the business
+* To sell the business to the user in a warm, friendly and inviting manner
+* To provide information on the photographer
+* To supply a visual portfolio of work done
+* To deliver a starting guide to the cost of services
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+## Design Wireframes
 
-- __Meetup Times section__
+The design and structure for this website was created in Adobe XD. The designs produced were low fidelity wireframes for desktop versions only. The final designs and structure differ from the wireframes due to developments during the construction of the website.
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+<details><summary> Low Fidelity Wireframes </summary>
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Home Page Low Fidelity Wireframne](assets/images/readme-images/home-page-low-fidelity.jpg)
 
-- __The Footer__ 
+![Packages Page Low Fidelity Wireframe](assets/images/readme-images/services-low-fidelity.jpg)
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+![Gallery Page Low Fidelity Wireframe](assets/images/readme-images/gallery-low-fidelity.jpg)
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Contact Page Low Fidelity Wireframe](assets/images/readme-images/contact-low-fidelity.jpg)
 
-- __Gallery__
+</details>
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+## Site Structure
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+Love Light Photography consists of 5 page website with 4 pages that the user can navigate between via the navigation bar.  The Home page is the default loading page. The Logo is centered and is also linked to the Home Page. On the left hand site of the logo are two navigation links of [Home](index.html) and [Packages](packages.html). And on the right side of the logo are another two navigation links of [Gallery](gallery.html) and [Contact](contact.html).
 
-- __The Sign Up Page__
+## Design Choices
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+### Colour Scheme
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+The final colour scheme chosen was a dark teal with an off white text, as well as an off white and light grey to segment pages. Two lighter teal colours were used on the navigation bar to highlight the active page and for the hover effect. This colour scheme is very on trend with the clean and modern look but still has that hint of warmth by sticking to the warmer tones of teal, greys and whites.
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
+![Colour palette image of 6 colours](assets/images/readme-images/colour-palette.png)
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+### Typography
 
-### Features Left to Implement
+There were two types of fonts chosen for this website. 'EB Garamond' was used for the body of the text and 'Cormorant Garamond' for the headings, which is a slightly different version Garamond than the body text to provide emphasis. Both fonts fall back to 'sans-serif'. The Garamond fonts have a slightly luxurious feel to them and the serif detail, provides a small bit of complexity to the design but with making use of letter spacing and line heights to still keep it in line with the clean look.
 
-- Another feature idea
+[Back to top](<#contents>)
 
-## Testing 
+# Features
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+Love Light Phtography is designed and structured like a typical website, making it very natural and intuitive to use to entice the user to explore further.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+Each page, except the Home Page, has a clear heading when landing on the page and short paragraph introducing the content. The language, colour and design used is intended to be friendly and easy to understand.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+## Navigation
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+* The navigation menu is featured at the top of the page and contains the links to main content.
 
+* The logo is centered in the navigation bar and is clickable and links back to the homepage.
 
-### Validator Testing 
+* There are three variations of the navigation bar for different screen sizes, and each keep the same colour and design styles with only the structure changing to keep the user experience as smooth as possible.
 
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+![Desktop Navbar](assets/images/readme-images/navbar-desktop.png)
 
-### Unfixed Bugs
+![Medium Screen Navbar](assets/images/readme-images/navbar-medium-screen.png)
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+![Mobile Navbar](assets/images/readme-images/navbar-mobile.png)
 
-## Deployment
+## Home Page
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+ * The Home Page is the landing page of the website and the first part that the user will see. It is designed to be welcoming and the purpose of the website easily determined.
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+ * There is a large hero image chosen for its' style, colour scheme and tone to match the website itself and it's immediately visible. Overlayed on the hero image is site name and a catchy slogan.
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+ * There is a bit of content peeking just above the fold to show users that there is more information on the page. This is a quote and it's designed to give off a particular feel of the website to the user; essentially the ethos of by which the business stands by.
 
+ * There is a section "Meet the Photographer" which is a succint About Me section intended to put the user at ease, keep the welcoming vibe whilst still imparting useful information and engaging with the user.
 
-## Credits 
+ * The last seection on the Home Page is a Stories section, which provides three different testimonials.
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
+ * The aim of each of these sections of the Home Page is to create a feeling of welcoming and friendliness and to encourage the user to explore the website in the hopes of hitting that Contact Page.
 
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+ * Each section is fully responsive, with the multiple column content naturally falling into single column content.
 
-### Content 
+ ![Desktop Homepage](assets/images/readme-images/home-page.png)
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+ <details><summary>Mobile Home Page</summary>
 
-### Media
+ ![Mobile Homepage](assets/images/readme-images/home-page-mobile.png)
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+ </details>
 
+## Packages Page
 
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
+* The packages page is as described in its navigation link. It lists the available services in a clear manner.
 
-## Other General Project Advice
+* There is a list of the available packages, using clear alternate colour design elements to distinguish the different packages, as well as headings, images and text.
 
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
+* It is fully responsive and each package section contents naturally fall into a single column, with the same clear colour design elements to distinguish each package.
 
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
+* This page is intended to impart the idea that this service is welcoming, friendly and the perfect fit for what the user is looking for but that the business can be approached for more information related to their particular event/occasion.
 
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
+![Desktop Packages Page](assets/images/readme-images/packages-page.png)
 
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
+## Gallery Page
 
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
+* The Gallery page provides the user with some sample photography from the photographer. It gives a mix of different events and occasions in one large gallery.
+
+* The gallery is easy to use, with a hover function on the images drawing the users eye to the cursor.
+
+* The Gallery page is fully responsive and as the screen reduces in size the columns of images reduce until the images are full width in mobile devices.
+
+![Desktop Gallery Page](assets/images/readme-images/gallery-page.png)
+
+<details><summary>Mobile Gallery Page</summary>
+
+![Mobile Gallery Page](assets/images/readme-images/gallery-page-mobile.png)
+
+</details>
+
+## Contact Page
+
+* The Contact page is should be where the user ends up. As there is no booking system or online store to purchase a package the aim is for them to reach out to the business.
+
+*  The contact form is modelled off the usual contact form layout, with four input fields; First Name, Last Name, Email Address and Your Message.
+
+* The contact form cannot be submitted unless the fields are filled correctly using the required attribute.
+
+* The form also uses a GET function to link to a Thank You page to mimic the effect of actually submitting the form . There is no actual information submitted when the user completes the form and the thank you page is purely to show how the user will interact with the form.
+
+* Beside the contact form there are practical contact details such as a dummy phone number and email. The email has a mailto link which opens to the users default mail software on their device, againing using a dummy email for the purpose of user experience.
+
+* There is also a google map iframe beneath the Location section.
+
+* The page is fully responsive with the sections stacking upon each other as the screen size is reduced, keeping the same design elements which distinguish between the different sections.
+
+![Desktop Contact Page](assets/images/readme-images/contact-page.png)
+
+<details><summary>Mobile Contact Page</summary>
+
+![Mobile Contact Page](assets/images/readme-images/contact-page-mobile.png)
+
+</details>
+
+## Thank You Page
+
+* The Thank You page cannot be accessed by the user from any links on the website. It can only be accessed by submitting the contact form on the Contact page which uses a GET function to retrieve the page to imitate the contact form submission.
+
+* The style and design of the website is consistent, with the navigation bar on top and footer on the bottom so as to allow the user to navigate back to the main website.
+
+![Desktop Thank You Page](assets/images/readme-images/thank-you-page.png)
+
+![Mobile Thank You Page](assets/images/readme-images/thank-you-page-mobile.png)
+
+## Footer
+
+* The Footer contains the social media links.
+
+* For better UX design, each of the social media links open in a new tab.
+
+* The Facebook, Instagram and Youtube links are purely for the educational purposes of the website and only navigate to the home page of each of the sites.
+
+* It also contains an email link which uses a mailto function to open the devices preferred email software. The email used is just a dummy email to show how the user interacts with the link.
+
+![Desktop Footer](assets/images/readme-images/footer.png)
+
+![Mobile Footer](assets/images/readme-images/footer-mobile.png)
+
+[Back to top](<#contents>)
+
+# Future Features
+
+* The Stories section on the Home Page could be made a bit more interactive with more stories that could be rotated through with only 3 stories showing at a time on the homepage.
+
+* The gallery can be expanded whereby a lightbox function can be implemented to achieve a greate user experience and interactivity with the images.
+
+* The gallery could also be categorised by event/occasion for better UX, to allow the user to navigate directly to photos of interest to them.
+
+* A Log In could be added whereby clients would have access to the photos of their event in a private gallery, will will provide a swifter service for the business, cutting out another physical meeting with clients to choose their photos.
+
+* The mobile navigation menu could be changed into a burger menu.
+
+* An eccomerce online shop could be added for the sale of stock prints.
+
+# Technologies Used
+
+* HTML5 - Delivers the structure and content for the website.
+* CSS3 - Provides the styling for the website.
+* [Adobe XD](https://www.adobe.com/ie/products/xd.html) - Used to create wireframes for the website
+* [Adobe Illustrator](https://www.adobe.com/ie/products/illustrator.html) - Used to create the Logo and social media assets for the website.
+* [Adobe Photoshop](https://www.adobe.com/ie/products/photoshop.html) - used to resize images and export them as progressive JPEG files.
+* [Adobe Color](https://color.adobe.com/create/color-contrast-analyzer) - Used to test the contrast and a blind safe colour check for the colour palette used.
+* [Adobe Lightroom](https://www.adobe.com/ie/products/photoshop-lightroom.html) - Used to optimise and resize images for screen.
+* [Tiny PNG](https://tinypng.com/) - Used to further compress optimised images.
+* Gitpod - Used to develop the website.
+* GitBash - Terminal used to push changes to the GitHub repository.
+* Github - Used to host and deploy the website.
+
+[Back to top](<#contents>)
+
+# Testing
+
+## Code Validation
+
+Love Light Photography has been validated via W3C HTML Validator and the W3C CSS Validator. There were 8 minor errors that came up for all of the pages. This was immediately corrected and documented down below in [Bugs Fixed](<#bugs-fixed>).
+
+![W3C HTML Validator](assets/images/readme-images/html-validator.png)
+
+![W3C CSS Validator](assets/images/readme-images/css-validator.jpg)
+
+## Lighthouse Testing
+
+The website was also put through Lighthouse testing via Chrome Devtools which tests a site under 4 different headings; Performance, Accessibility, Best Practices and SEO and it tests it under mobile and desktop criteria.
+
+![Lighthouse testing](assets/images/readme-images/lighthouse-results.png)
+
+## Accessibility Testing
+
+[A11y](https://color.a11y.com/) was used to check the colour contrast on the website for accessibility purposes which it passed.
+
+![A11y Contrast validator](assets/images/readme-images/color-contrast-validator.png)
+
+[Adobe Color](https://color.adobe.com/create/color-accessibility) was also used to test that the colour scheme was accessible for those with different types of blindness which it also succeded in doing.
+
+![Adobe Color Blind Safe Checker](assets/images/readme-images/adobe-color-blind-safe.png)
+
+## Responsive Testing
+
+Responsiveness was tested via a few different mediums manually, including Chrome Devtools, [The Viewport Resizer](https://chrome.google.com/webstore/detail/viewport-resizer-%E2%80%93-respon/kapnjjcfcncngkadhpmijlkblpibdcgm?hl=en) chrome extension and [The Responsive Design Checker](https://responsivedesignchecker.com/) website. 
+
+## Manual Testing
+
+In addition to the automated process above, manual testing was carried out on the site as well.
+
+* Naviagtion Menu
+    * Verified that all the links link to the appropriate page with no broken links on all pages.
+    * Verified that the logo when clicked links back to the Home Page.
+    * Verified that the logo image has an alt text and fallback image for non browser support of the svg file.
+    * Verified that the hover effects are consistent on all links.
+    * Verified that the active page is highlighted.
+    * Verified that the navigation bar is full responsive.
+
+* Home Page
+    * Verified that the Hero image is not pixelated and is fully responsive.
+    * Verified that all images on the home page are optimised and have alt functions.
+    * Verified that all the elements are fully responsive
+
+* Packages Page
+    * Verified that all the images are optimised and have alt texts. 
+    * Verified that all the elements are fully responsive.
+
+* Gallery Page
+    * Verfied all the images are optimised and have alt texts.
+    * Verified that all elements are fully responsive.
+
+* Contact Page
+    * Verified that contact form cannot be submitted without the required information (First Name, Last Name and Email Address)
+    * Verified that once the information is submitted via contact form, that the GET function works correctly and retrieves the thank you page.
+    * Verified that the mailto function works correctly on the email link.
+    * Verified that the page is fully responsive.
+
+* Thank You Page
+    * Verified that the thank you page is linked correctly to the contact form.
+    * Verified that the Thank You Page is fully responsive.
+
+* Footer
+    * Verrified that the email asset links properly with the mailto function.
+    * Verified that the social media links are all linked properly to the releveant social media home pages.
+    * Verified that all the social media links open in a new tab.
+
+* Browser Testing
+
+    * Love Light Photography has been manually tested in Google Chrome, Microsoft Edge, Mozilla Firefox and Safari on both desktop and mobile.
+    * Verified that all images worked correctly
+    * Verified that design and structure was consistent across all browsers.
+    * Verfied responsiveness across all browsers.
+
+## Bugs Fixed
+
+### HTML Validation
+    
+The following error was presented once the website was placed through W3C HTML Validator.
+
+![HTML Validation Error 2](assets/images/readme-images/html-validator-error-2.png)
+
+It said that the width and height attributes in the footer images produced " Expected a digit but saw p instead". Once I removed the px from the width and height attributes, it cleared that error up.
+
+### CSS Validation
+
+The following error cropped up when the site was initially put through CSS validation.
+
+![CSS Validation error](assets/images/readme-images/css-validator-issue.png)
+
+While no problems were indicated in the CSS file in GitPod, it did show up in validation. To fix this error, in the font-family declaration, I changed all the double quote around the font family to single quotes and the error cleared.
+
+### Lighthouse Testing
+
+The first error that cropped up with lighthouse testing with regards Best Practices and thus affecting also the Performance section. This error was across all pages and had to do with external links and security.
+
+![Lighthouse initial testing](assets/images/readme-images/rel-noopener-fix.png)
+
+It was recommended to add the rel=noopener to any external links, which cleared the error.
+
+As well as this, the initial scores were fluctuating between the low greens to the orange on a few of the pages. Upon further inspection, these were on the pages which held a large quantity of images, mainly the Gallery Page and Packages Page. Both these results were in the mobile and desktop testing.
+
+![Lighthouse Testing Image 1](assets/images/readme-images/desktop-lighthouse-test-gallery-2.png)
+
+![Lighthouse Testing Image 2](assets/images/readme-images/desktop-lighthouse-test-gallery-3.png)
+
+The errors shown were:
+1. Serve images in next-gen formats
+2. Properly sized images
+3. Serve static assets with an efficient cache policy
+4. Image elements do not have specific width and height
+
+* Problem 1 -Serve images in next-gen formats
+    * Serving images in next-gen file formats like webp would improve the score however upon research, it was best to leave my images as JPEG files, as this is the best file format for colour, depth and clarity of photos which is extremely important for a photography business website. The images however were exported as progressive JPEG files to allow the browser to load a simple version of the image before loading the full resolution photo. A lot of next-gen file formats are also currently not supported by a lot of browsers.
+
+* Problem 2 - Properly sized images
+    * This problem was initially addressed by running the photos through lightroom and exporting them for screen and compressing them using [Tiny.png](https://tinypng.com/). This was still not enough, however so they were brought into photoshop and were cropped to exact sizes, exported as progressive JPEG files and compressed again via tiny.png. This cleared the warning.
+
+* Problem 3 - Serve static assets with an efficient cache policy
+    * Caching is a problem that could not be solved as it's the host's issue, in this case Github pages controls the problem.
+
+* Problem 4 - Image elements do not have specific width and height
+    * This was fixed by adding width and height attributes to image tags and thus the warning was cleared.
+
+### SVG Logo File
+
+ A logo for the site was created using Adobe Illustrator and it was exported as a SVG file, done so for the repsonsive ability of the svg file and the sharpness and quality of the image itself.
+
+ However there were issues with it showing up with a size of 0px in browsers.
+
+ The fix was found here : (https://github.com/lokesh/lightbox2/issues/552) and it corrected when an actual height and width was set to the img tag.
+
+ While this fixed the issue in Chrome and Mircrosoft Edge, it did not in Firefox.
+ 
+ ![Firefox SVG logo issue](assets/images/readme-images/firefox-issue-2.png)
+
+ Upon further study the width and height that was set to 100% had no point of reference and thus setting the height and width attribute in the html fixed the problem in firefox as the percentage widths in the CSS then had a point of reference.
+
+### Responsiveness
+
+Chrome Devtools was initially used to test the responsiveness of the website. However it proved to be somewhat inconsistent with results despite no code being changed. Therefore another Chrome extension was used, [Viewport Resizer](https://chrome.google.com/webstore/detail/viewport-resizer-%E2%80%93-respon/kapnjjcfcncngkadhpmijlkblpibdcgm?hl=en) and a website, [Responsive Design Checker](https://responsivedesignchecker.com/) was used in conjunction with Chrome Devtools to make sure the website was fully responsive.
+
+![Chrome Devtools responsive viewer](assets/images/readme-images/responsive-issue-2.png)
+
+![Viewport Resizer Chrome Extension](assets/images/readme-images/responsiveness-issue.png)
+
+![Responsive Design Checker](assets/images/readme-images/responsive-issue-3.png)
+
+There were overflow issues that couldnt be determined easily once certain screen sizes were reached, particularly the mobile screen size. To help identify the overflow issues, the problem was googled and answer found in [Stack Overflow](https://stackoverflow.com/questions/31458477/find-element-that-is-causing-the-showing-of-horizontal-scrollbar-in-google-chrom) and a piece of code was used to outline all the elements on a page, allowing the elements that didnt line up to be identified.
+
+![Outline Code Example](assets/images/readme-images/outline-code.png)
+
+![Outline Code Desktop Design](assets/images/readme-images/overflow-outline-2.png)
+
+![Outline Code Mobile Design](assets/images/readme-images/overflow-outline.png)
+
+[Back to top](<#contents>)
+
+# Deployment
+
+The website was deployed to GitHub pages via the following methods:
+
+1. Navigate to the Settings tab in the GitHub repository for the project.
+2. On the left hand side, scroll down to the pages tab.
+3. Under the Source tab, choose the branch called Main and in the dropdown beside it select the folder called Root.
+4. Click save.
+5. The page automatically displays the deployed link at the top once save is clicked.
+6. It can take up to 5 minutes to deploy.
+
+[Back to top](<#contents>)
+
+# Credits
+
+* Fonts were sourced from [Google Fonts](https://fonts.google.com/)
+* All images from the website were sourced from [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/)
+* Images were compressed by [Tiny Png](https://tinypng.com/)
+* Colour palette was created by [coolors.co](https://coolors.co/)
+* Flexbox system was learned via youtube video from [LearnWebCode](https://www.youtube.com/watch?v=k32voqQhODc&ab_channel=LearnWebCode)
+* Flexbox Image grid from [Kweku Adaboh](https://kweada.medium.com/css-flexbox-image-grid-for-different-sized-images-ff48cbe52ed4)
+* CSS Grid code was learned via [Traversy Media](https://www.youtube.com/watch?v=jV8B24rSN5o&t=7s&ab_channel=TraversyMedia) and [CSS Tricks](https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/) 
+* Code for CSS transform scale properties comes from [Learn with Param](https://learnwithparam.com/blog/scale-elements-on-hover-using-css/#:~:text=Often%20we%20get%20a%20requirement%20to%20scale%20images,%2F%2F%20shrinking%20in%20size.shrink%3Ahover%20%7B%20transform%3A%20scale%280.8%29%3B%20%7D)
+* Code for drawing a border inside a shape/image was from [CodeLab](https://www.tutorialrepublic.com/codelab.php?topic=faq&file=draw-border-inside-div-element-with-css)
+* Link to the quote by [Destin Sparks](https://twitter.com/DestinSparks/status/757136759406727168?cxt=HHwWgMCg7eD38YEVAAAA)
+* Image optimisation was learned from [Layout, Flywheel](https://getflywheel.com/layout/optimize-images-for-web/#file-type)
