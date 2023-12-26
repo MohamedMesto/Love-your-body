@@ -1,6 +1,6 @@
-# **_Love Your Body (Holy fast) - Project Portfolio 1 - HTML & CSS_**
+# **_Love Your Body (Fasting Treatment) - Project Portfolio 1 - HTML & CSS_**
 
- Love light photography is a small profesional photography business that offers a wide range of photography services. This site targets the average individual who is looking to capture their event with high quality photography, in a professional but friendly and approachable manner, with a means to see samples of work done and contact to contact the business directly.
+"Discover 'Love Your Body (Fasting Treatment),' a digital haven dedicated to the transformative power of fasting for holistic well-being. Our platform is a nurturing guide, offering insights into the profound connection between self-love and the art of intentional fasting. Explore evidence-backed fasting treatments, tailor-made to rejuvenate your body, mind, and spirit. Immerse yourself in a wealth of resources, from expert advice on fasting protocols to delicious and nutritious recipes that support your wellness journey. Join our community of mindful individuals committed to embracing the healing potential of fasting, and embark on a transformative path toward a healthier, more balanced life."
 
 You can view the live site here - <a href="https://rhiannonmcn.github.io/Love-Light-Photography/" target="_blank"> Love Light Photography </a>
 
